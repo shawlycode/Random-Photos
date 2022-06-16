@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #efe0df;
+  align-items: center;
+  justify-content: center;
+  right: 0;
+}
+
+.container_blur{
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0.3rem;
+  padding: 0.3rem;
+}
+.imgBlur {
+  border-radius: 0.3rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  width: 14rem;
+  aspect-ratio: 3/4;
+  background-color: #292547;
+
+  
+}
+.btnBlur {
+  width: 200px;
+  height: 50px;
+  color: whitesmoke;
+  padding: 0.3rem 2rem;
+  border-radius: 0.3rem;
+  border: none;
+  outline: none;
+  background-color: #1f1874;
+  margin-top: 2rem;
+  font-size: 20px;
+  font-family: cursive;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  cursor: pointer;.
+}
+.btnBlur:hover {
+  opacity: 0.8;
+}
+nav {
+  display: flex;
+  background-color: #1f1874;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    margin-left: 2rem;
+}
+.logo {
+  color: whitesmoke;
+}
+ul {
+  display: flex;
+}
+li {
+  margin-right: 10rem;
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 24px;
+}
